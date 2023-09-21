@@ -22,7 +22,7 @@ with open(path_to_file) as f:
     print(f"--- Begin report of {path_to_file} ---")
     print(f"{word_count} words found in the document")
     print("\n")
-    # print(char_list)
+    
     for char in char_list:
         if char.isalpha():
             print(f"The '{char}' character was found {chars[char]} times")
